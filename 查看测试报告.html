@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Access - Test Reports</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .main-link {
+            display: block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .main-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        .arrow {
+            font-size: 1.8em;
+            margin-left: 10px;
+        }
+        .divider {
+            border-top: 2px solid #eee;
+            margin: 30px 0;
+        }
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .quick-link {
+            display: block;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .quick-link:hover {
+            background: #e9ecef;
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        .link-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #667eea;
+        }
+        .link-desc {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .info-box {
+            background: #f0f7ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .info-box h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .info-box ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Lottery System Test Reports</h1>
+        
+        <a href="4-All-Test-Reports/index.html" class="main-link">
+            📊 VIEW ALL TEST REPORTS
+            <span class="arrow">→</span>
+        </a>
+
+        <div class="info-box">
+            <h3>📁 Project Structure</h3>
+            <ul>
+                <li><strong>1-API-Interface-Automation-Test/</strong> - API test code (Python + Pytest)</li>
+                <li><strong>2-Web-UI-Automation-Test/</strong> - Web UI test code (Java + Selenium)</li>
+                <li><strong>3-Performance-Test/</strong> - JMeter performance test scripts</li>
+                <li><strong>4-All-Test-Reports/</strong> - All generated test reports</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <h3 style="text-align: center; color: #666; margin-bottom: 15px;">Direct Access</h3>
+        
+        <div class="links-grid">
+            <a href="4-All-Test-Reports/api_test_report/index.html" class="quick-link">
+                <div class="link-title">API Test</div>
+                <div class="link-desc">41 cases</div>
+            </a>
+            
+            <a href="4-All-Test-Reports/web_test_report/index.html" class="quick-link">
+                <div class="link-title">Web UI Test</div>
+                <div class="link-desc">29 cases</div>
+            </a>
+            
+            <a href="4-All-Test-Reports/baseline_report/index.html" class="quick-link">
+                <div class="link-title">Baseline Test</div>
+                <div class="link-desc">20 users</div>
+            </a>
+            
+            <a href="4-All-Test-Reports/stress_report/index.html" class="quick-link">
+                <div class="link-title">Stress Test</div>
+                <div class="link-desc">50-150 users</div>
+            </a>
+            
+            <a href="4-All-Test-Reports/mixed_report/index.html" class="quick-link">
+                <div class="link-title">Mixed Test</div>
+                <div class="link-desc">100 users</div>
+            </a>
+            
+            <a href="4-All-Test-Reports/stability_report/index.html" class="quick-link">
+                <div class="link-title">Stability Test</div>
+                <div class="link-desc">30 users</div>
+            </a>
+        </div>
+
+        <div class="info-box" style="margin-top: 30px; background: #fff3cd; border-color: #ffc107;">
+            <h3 style="color: #856404;">💡 Quick Tips</h3>
+            <ul style="color: #856404;">
+                <li>Double-click any HTML file to view in browser</li>
+                <li>All reports are offline and fully functional</li>
+                <li>Check README.md files for detailed documentation</li>
+                <li>Test code is ready to run (see individual READMEs)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
