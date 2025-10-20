@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:71 准备发起PUT请求，URL: http://101.42.36.43:8888/prize/toggle-status/8
+[32mINFO    [0m utils.logger_util:request_util.py:72 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4NTUxMzAsImV4cCI6MTc2MDk0MTUzMH0.W40QAvLFK6RthebxocqW9szW6TWHr69zl1ZH8fCAlQA'}, 'params': {'status': 'DISABLED'}}
+[32mINFO    [0m utils.logger_util:request_util.py:76 响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:77 响应内容：{"code":200,"data":null,"msg":"奖品状态更新成功"}

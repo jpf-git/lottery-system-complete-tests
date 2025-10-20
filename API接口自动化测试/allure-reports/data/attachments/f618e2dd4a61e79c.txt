@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:50 准备发起POST请求，URL: http://101.42.36.43:8888/api/lottery/draw
+[32mINFO    [0m utils.logger_util:request_util.py:51 请求信息：{'json': {'userId': 16, 'activityId': 7, 'sessionId': '6f3ee366-1c58-41c6-8592-892925ef5724'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4NTUxMjksImV4cCI6MTc2MDk0MTUyOX0.tfStFYSaF8BGC_RyWSnyKrvdPy4AFhGpIeQD5_z4G9g'}}
+[32mINFO    [0m utils.logger_util:request_util.py:55 响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:56 响应内容：{"code":200,"data":{"success":true,"won":false,"message":"谢谢参与！","prize":null,"remainingChances":4,"position":2,"sessionId":"6f3ee366-1c58-41c6-8592-892925ef5724"},"msg":"抽奖完成"}

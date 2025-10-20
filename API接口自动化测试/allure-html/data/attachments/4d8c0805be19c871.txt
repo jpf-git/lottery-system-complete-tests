@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:29 准备发起GET请求，URL: http://101.42.36.43:8888/auth/verify
+[32mINFO    [0m utils.logger_util:request_util.py:30 请求信息：{'headers': {'user_token': 'invalid_token_string_12345'}}
+[32mINFO    [0m utils.logger_util:request_util.py:34 响应状态码：401
+[32mINFO    [0m utils.logger_util:request_util.py:35 响应内容：{"code":401,"msg":"令牌无效或已过期"}

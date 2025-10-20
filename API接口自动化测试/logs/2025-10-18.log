@@ -1,0 +1,754 @@
+2025-10-18 00:08:25,264 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 00:08:25,265 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'userName': '测试用户001', 'email': 'test_user_001@example.com', 'phoneNumber': '13800138001', 'password': 'Test@123456', 'identity': 'USER'}}
+2025-10-18 00:08:26,025 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 00:08:26,025 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 邮箱不能为空！, 姓名不能为空！"}
+2025-10-18 00:10:49,862 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 00:10:49,863 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户001', 'email': 'test_user_001@example.com', 'phoneNumber': '13800138001', 'password': 'Test@123456', 'identity': 'USER'}}
+2025-10-18 00:10:50,677 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 00:10:50,677 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 邮箱不能为空！"}
+2025-10-18 00:11:11,979 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 00:11:11,979 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户001', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138001', 'password': 'Test@123456', 'identity': 'USER'}}
+2025-10-18 00:11:12,734 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 00:11:12,734 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":105,"data":null,"msg":"密码错误"}
+2025-10-18 00:11:33,273 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 00:11:33,273 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户001', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138001', 'password': '123456', 'identity': 'USER'}}
+2025-10-18 00:11:34,053 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 00:11:34,053 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":107,"data":null,"msg":"手机号被使用"}
+2025-10-18 00:11:43,184 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 00:11:43,184 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户001', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138004', 'password': '123456', 'identity': 'USER'}}
+2025-10-18 00:11:47,077 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 00:11:47,077 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"userId":18},"msg":"用户注册成功"}
+2025-10-18 00:13:14,046 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 00:13:14,046 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户001', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138004', 'password': '123456', 'identity': 'USER'}}
+2025-10-18 00:13:14,723 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 00:13:14,723 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"userId":19},"msg":"用户注册成功"}
+2025-10-18 00:14:19,447 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 00:14:19,447 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户001', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138004', 'password': '123456', 'identity': 'USER'}}
+2025-10-18 00:14:20,198 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 00:14:20,198 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"userId":20},"msg":"用户注册成功"}
+2025-10-18 01:10:09,233 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 01:10:09,234 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'userName': '重复用户', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138002', 'password': '123456', 'identity': 'USER'}}
+2025-10-18 01:10:09,983 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:10:09,983 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 姓名不能为空！"}
+2025-10-18 01:20:08,919 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 01:20:08,919 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户', 'mail': 'invalid_email', 'phoneNumber': '13800138003', 'password': 'Test@123456', 'identity': 'USER'}}
+2025-10-18 01:20:09,928 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:20:09,928 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":101,"data":null,"msg":"邮箱错误"}
+2025-10-18 01:20:09,929 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 01:20:09,929 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户', 'mail': 'test@', 'phoneNumber': '13800138004', 'password': 'Test@123456', 'identity': 'USER'}}
+2025-10-18 01:20:10,700 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:20:10,700 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":101,"data":null,"msg":"邮箱错误"}
+2025-10-18 01:20:10,702 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 01:20:10,702 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户', 'mail': '@example.com', 'phoneNumber': '13800138005', 'password': 'Test@123456', 'identity': 'USER'}}
+2025-10-18 01:20:11,441 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:20:11,441 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":101,"data":null,"msg":"邮箱错误"}
+2025-10-18 01:23:15,607 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:23:15,607 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test_user_001@example.com', 'password': '123456'}}
+2025-10-18 01:23:16,340 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:23:16,340 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":110,"data":null,"msg":"用户信息为空"}
+2025-10-18 01:26:30,800 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:26:30,800 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test_user_001@example.com', 'password': '123456'}}
+2025-10-18 01:26:31,553 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:26:31,553 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":110,"data":null,"msg":"用户信息为空"}
+2025-10-18 01:29:17,011 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:29:17,011 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test_user_001@example.com', 'password': '123456'}}
+2025-10-18 01:29:17,750 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:29:17,750 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":110,"data":null,"msg":"用户信息为空"}
+2025-10-18 01:31:15,518 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:31:15,519 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 01:31:16,274 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:31:16,274 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjIyNzksImV4cCI6MTc2MDgwODY3OX0.ARhwcmgU7g-dfb03UJmKvN4lDPtXQ6mGeoF3Z_EuW7A","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 01:32:14,725 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:32:14,725 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 01:32:15,501 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:32:15,501 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjIzMzgsImV4cCI6MTc2MDgwODczOH0.eqzXVyjikd9q0BCbJUti2uaUSGx0QGlZYVC6JLtyEO4","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 01:32:56,287 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:32:56,288 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 01:32:57,031 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:32:57,031 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjIzODAsImV4cCI6MTc2MDgwODc4MH0.V1XM1ChGSKLhulyjo1GbwJqccRzGp3XsDnbnblLVGgg","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 01:33:22,247 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:33:22,248 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 01:33:23,005 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:33:23,005 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjI0MDYsImV4cCI6MTc2MDgwODgwNn0.d3gkeK7H1DlDaTqb2Or7wTPOsn2TgoMiRfr0V6kxt20","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 01:35:35,093 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:35:35,094 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': 'WrongPassword@123'}}
+2025-10-18 01:35:36,366 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:35:36,366 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":105,"data":null,"msg":"密码错误"}
+2025-10-18 01:37:48,582 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:37:48,582 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'nonexist_user@example.com', 'password': '123456'}}
+2025-10-18 01:37:50,378 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:37:50,378 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":110,"data":null,"msg":"用户信息为空"}
+2025-10-18 01:41:10,866 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/current
+2025-10-18 01:41:10,866 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjI0MDYsImV4cCI6MTc2MDgwODgwNn0.d3gkeK7H1DlDaTqb2Or7wTPOsn2TgoMiRfr0V6kxt20'}}
+2025-10-18 01:41:11,603 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 01:41:11,603 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"identity":"USER","userId":17,"email":"user17@example.com","username":"用户17"},"msg":"获取当前用户信息成功"}
+2025-10-18 01:41:19,083 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/current
+2025-10-18 01:41:19,083 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjI0MDYsImV4cCI6MTc2MDgwODgwNn0.d3gkeK7H1DlDaTqb2Or7wTPOsn2TgoMiRfr0V6kxt20'}}
+2025-10-18 01:41:19,785 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 01:41:19,785 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"identity":"USER","userId":17,"email":"user17@example.com","username":"用户17"},"msg":"获取当前用户信息成功"}
+2025-10-18 01:42:51,557 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/find-list
+2025-10-18 01:42:51,557 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjI0MDYsImV4cCI6MTc2MDgwODgwNn0.d3gkeK7H1DlDaTqb2Or7wTPOsn2TgoMiRfr0V6kxt20'}}
+2025-10-18 01:42:52,325 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 01:42:52,325 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 01:44:09,207 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:44:09,207 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 01:44:09,975 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:44:09,975 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjMwNTMsImV4cCI6MTc2MDgwOTQ1M30.3dOBlppREG4vsyjfHV5JAz9ZBkU8N-HugoGFM6DRlao","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 01:44:09,979 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/find-list
+2025-10-18 01:44:09,979 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjMwNTMsImV4cCI6MTc2MDgwOTQ1M30.3dOBlppREG4vsyjfHV5JAz9ZBkU8N-HugoGFM6DRlao'}}
+2025-10-18 01:44:10,743 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 01:44:10,743 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 01:47:21,477 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:47:21,478 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 01:47:22,269 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:47:22,269 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3MjMyNDUsImV4cCI6MTc2MDgwOTY0NX0.S67-jnscPcZyb9yFkCjqqVg0wIXbWtXYYgajTyiuUj8","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 01:47:22,274 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/find-list
+2025-10-18 01:47:22,274 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3MjMyNDUsImV4cCI6MTc2MDgwOTY0NX0.S67-jnscPcZyb9yFkCjqqVg0wIXbWtXYYgajTyiuUj8'}}
+2025-10-18 01:47:22,982 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 01:47:22,982 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 01:49:03,900 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:49:03,900 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 01:49:04,681 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:49:04,681 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjMzNDcsImV4cCI6MTc2MDgwOTc0N30.bxVL4WKGj2YqkuMlGylPJ49_d4c5etLcY22AoOH0oGg","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 01:49:04,686 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888//base-user/find-list
+2025-10-18 01:49:04,686 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjMzNDcsImV4cCI6MTc2MDgwOTc0N30.bxVL4WKGj2YqkuMlGylPJ49_d4c5etLcY22AoOH0oGg'}}
+2025-10-18 01:49:05,445 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：404
+2025-10-18 01:49:05,445 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"timestamp":"2025-10-17T17:49:08.554+00:00","status":404,"error":"Not Found","path":"//base-user/find-list"}
+2025-10-18 01:49:32,167 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/base-user/find-list
+2025-10-18 01:49:32,167 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjMzNDcsImV4cCI6MTc2MDgwOTc0N30.bxVL4WKGj2YqkuMlGylPJ49_d4c5etLcY22AoOH0oGg'}}
+2025-10-18 01:49:32,930 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 01:49:32,930 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 01:49:38,750 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:49:38,750 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 01:49:39,789 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:49:39,789 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjMzODIsImV4cCI6MTc2MDgwOTc4Mn0.bL4EXwEq6aA-by6B_qpNty9CD9FxZrkTHWMYTmHH2MI","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 01:49:39,801 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/base-user/find-list
+2025-10-18 01:49:39,801 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjMzODIsImV4cCI6MTc2MDgwOTc4Mn0.bL4EXwEq6aA-by6B_qpNty9CD9FxZrkTHWMYTmHH2MI'}}
+2025-10-18 01:49:40,521 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 01:49:40,522 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 01:56:41,115 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 01:56:41,115 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 01:56:41,849 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 01:56:41,849 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjM4MDQsImV4cCI6MTc2MDgxMDIwNH0.U50GhjqN8w1L7_pyG_gt8FJwrHELu3iHbWZGsR7DU5k","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 02:03:08,111 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 02:03:08,111 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 02:03:08,845 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:03:08,845 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjQxOTEsImV4cCI6MTc2MDgxMDU5MX0.mQQadE5qHoJI9UIcUREKQ1Ix3dPMVJE5tvX0hToQyOQ","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 02:03:08,849 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/find-list
+2025-10-18 02:03:08,849 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjQxOTEsImV4cCI6MTc2MDgxMDU5MX0.mQQadE5qHoJI9UIcUREKQ1Ix3dPMVJE5tvX0hToQyOQ'}}
+2025-10-18 02:03:09,571 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 02:03:09,571 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 02:04:12,218 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 02:04:12,218 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 02:04:13,446 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:04:13,446 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjQyNTYsImV4cCI6MTc2MDgxMDY1Nn0.hPaTF4UVh4UD5C90H7iyTd40LJV9EVhp3HdaciC5Cn0","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 02:04:13,450 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/find-list
+2025-10-18 02:04:13,450 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjQyNTYsImV4cCI6MTc2MDgxMDY1Nn0.hPaTF4UVh4UD5C90H7iyTd40LJV9EVhp3HdaciC5Cn0'}}
+2025-10-18 02:04:14,180 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 02:04:14,180 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 02:06:09,782 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 02:06:09,782 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户001', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138004', 'password': '123456', 'identity': 'USER'}}
+2025-10-18 02:06:10,546 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:06:10,546 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"userId":18},"msg":"用户注册成功"}
+2025-10-18 02:06:10,549 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 02:06:10,550 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'userName': '重复用户', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138002', 'password': '123456', 'identity': 'USER'}}
+2025-10-18 02:06:11,305 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:06:11,305 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 姓名不能为空！"}
+2025-10-18 02:06:11,308 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 02:06:11,308 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户', 'mail': 'invalid_email', 'phoneNumber': '13800138003', 'password': 'Test@123456', 'identity': 'USER'}}
+2025-10-18 02:06:12,459 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:06:12,460 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":101,"data":null,"msg":"邮箱错误"}
+2025-10-18 02:06:12,461 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 02:06:12,461 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户', 'mail': 'test@', 'phoneNumber': '13800138004', 'password': 'Test@123456', 'identity': 'USER'}}
+2025-10-18 02:06:13,196 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:06:13,196 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":101,"data":null,"msg":"邮箱错误"}
+2025-10-18 02:06:13,197 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-18 02:06:13,197 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'name': '测试用户', 'mail': '@example.com', 'phoneNumber': '13800138005', 'password': 'Test@123456', 'identity': 'USER'}}
+2025-10-18 02:06:13,949 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:06:13,949 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":101,"data":null,"msg":"邮箱错误"}
+2025-10-18 02:06:13,950 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 02:06:13,951 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 02:06:14,730 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:06:14,730 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjQzNzcsImV4cCI6MTc2MDgxMDc3N30.mJKBpvkWkWdPbJQfMSTM2vnU1y4lKgOAO9lR6dyZh8I","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 02:06:14,733 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 02:06:14,734 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': 'WrongPassword@123'}}
+2025-10-18 02:06:15,383 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:06:15,383 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":105,"data":null,"msg":"密码错误"}
+2025-10-18 02:06:15,386 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 02:06:15,386 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'nonexist_user@example.com', 'password': '123456'}}
+2025-10-18 02:06:16,147 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 02:06:16,147 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":110,"data":null,"msg":"用户信息为空"}
+2025-10-18 02:06:16,149 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/current
+2025-10-18 02:06:16,149 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjQzNzcsImV4cCI6MTc2MDgxMDc3N30.mJKBpvkWkWdPbJQfMSTM2vnU1y4lKgOAO9lR6dyZh8I'}}
+2025-10-18 02:06:16,917 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 02:06:16,917 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"identity":"USER","userId":17,"email":"user17@example.com","username":"用户17"},"msg":"获取当前用户信息成功"}
+2025-10-18 02:06:16,919 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/find-list
+2025-10-18 02:06:16,919 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjQzNzcsImV4cCI6MTc2MDgxMDc3N30.mJKBpvkWkWdPbJQfMSTM2vnU1y4lKgOAO9lR6dyZh8I'}}
+2025-10-18 02:06:17,678 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 02:06:17,678 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 02:08:17,015 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/find-list
+2025-10-18 02:08:17,015 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3MjQzNzcsImV4cCI6MTc2MDgxMDc3N30.mJKBpvkWkWdPbJQfMSTM2vnU1y4lKgOAO9lR6dyZh8I'}}
+2025-10-18 02:08:17,756 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 02:08:17,756 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 10:09:21,442 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 10:09:21,443 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 10:09:22,209 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 10:09:22,209 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTMzNjUsImV4cCI6MTc2MDgzOTc2NX0.qgm8HPL19Tf1W8lT10QZlZM9FulFmk4Am5XbeCrnBiA","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 10:09:22,216 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/find-list
+2025-10-18 10:09:22,216 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTMzNjUsImV4cCI6MTc2MDgzOTc2NX0.qgm8HPL19Tf1W8lT10QZlZM9FulFmk4Am5XbeCrnBiA'}}
+2025-10-18 10:09:23,024 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 10:09:23,024 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 10:12:32,849 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 10:12:32,849 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 10:12:33,654 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 10:12:33,654 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTM1NTcsImV4cCI6MTc2MDgzOTk1N30.IlnbNUUrgfVoRRvnnVCiBYZ7RtjvJ23CwMQqeKyAZfM","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 10:12:33,660 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/find-list
+2025-10-18 10:12:33,660 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTM1NTcsImV4cCI6MTc2MDgzOTk1N30.IlnbNUUrgfVoRRvnnVCiBYZ7RtjvJ23CwMQqeKyAZfM'}}
+2025-10-18 10:12:34,432 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 10:12:34,432 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 10:18:36,216 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 10:18:36,217 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 10:18:37,027 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 10:18:37,027 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTM5MjAsImV4cCI6MTc2MDg0MDMyMH0.g9TchMvQSRLpuMTsNFT3p7mYfEdcPMgaQwSji2stOxI","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 10:18:37,032 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/base-user/find-list
+2025-10-18 10:18:37,032 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTM5MjAsImV4cCI6MTc2MDg0MDMyMH0.g9TchMvQSRLpuMTsNFT3p7mYfEdcPMgaQwSji2stOxI'}, 'params': {'identity': 'USER'}}
+2025-10-18 10:18:37,811 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 10:18:37,811 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":[{"userId":18,"userName":"测试用户001","identity":"USER","status":"ENABLED"},{"userId":17,"userName":"testuser1760671217025","identity":"USER","status":"ENABLED"},{"userId":16,"userName":"testuser1760621522622","identity":"USER","status":"DISABLED"},{"userId":14,"userName":"testuser1760546377851","identity":"USER","status":"ENABLED"},{"userId":13,"userName":"testuser1760544919215","identity":"USER","status":"ENABLED"},{"userId":12,"userName":"testuser1760544396525","identity":"USER","status":"ENABLED"},{"userId":10,"userName":"周源鑫","identity":"USER","status":"ENABLED"},{"userId":9,"userName":"李志勇","identity":"USER","status":"ENABLED"},{"userId":8,"userName":"归终","identity":"USER","status":"ENABLED"},{"userId":7,"userName":"穆嘉熙","identity":"USER","status":"ENABLED"},{"userId":6,"userName":"oooo","identity":"USER","status":"ENABLED"},{"userId":5,"userName":"123","identity":"USER","status":"ENABLED"},{"userId":4,"userName":"zm421421","identity":"USER","status":"ENABLED"},{"userId":3,"userName":"普通用户1","identity":"USER","status":"ENABLED"}],"msg":"查询用户信息列表成功"}
+2025-10-18 10:18:37,815 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/user/base-user/find-list
+2025-10-18 10:18:37,815 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTM5MjAsImV4cCI6MTc2MDg0MDMyMH0.g9TchMvQSRLpuMTsNFT3p7mYfEdcPMgaQwSji2stOxI'}, 'params': {'identity': 'ADMIN'}}
+2025-10-18 10:18:39,628 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 10:18:39,628 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"数据库访问异常，请检查输入参数或联系管理员"}
+2025-10-18 10:38:03,989 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 10:38:03,989 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 10:38:04,815 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 10:38:04,815 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTUwODgsImV4cCI6MTc2MDg0MTQ4OH0.t4eBPH5u8j7xG4q7L-jEj1QUD5TpxMzhkGFXB-a063s","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 10:38:14,287 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 10:38:14,287 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 10:38:18,067 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 10:38:18,067 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTUxMDEsImV4cCI6MTc2MDg0MTUwMX0.4e24gUAuZyBNwUwcOenr11KUHoe4BwS2kq-vLcy5wtw","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 10:38:52,020 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 10:38:52,020 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 10:38:52,850 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 10:38:52,850 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTUxMzYsImV4cCI6MTc2MDg0MTUzNn0.gVlOlzXgd6vQ8lqP3h-tB4gnVvtD0Eu6UlOobhPtxIU","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 10:41:00,543 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 10:41:00,543 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 10:41:02,767 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 10:41:02,767 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3NTUyNjYsImV4cCI6MTc2MDg0MTY2Nn0.VSUADrPxTKUle-SrtmqqyJdwV2KSxcNVoKdzUfDVw3Q","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 10:42:32,996 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 10:42:32,996 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 10:42:34,468 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 10:42:34,468 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NTUzNTgsImV4cCI6MTc2MDg0MTc1OH0.yLgfMWBDYMy7H2g2r2ybhlxtkaJW797-np-ocEUyo2A","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 10:46:42,793 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 10:46:42,793 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 10:46:44,014 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 10:46:44,015 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NTU2MDcsImV4cCI6MTc2MDg0MjAwN30.vel-ns-ExdEY3n45HXjl5Y7PDi7sJhup2xHVOc1EmkI","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 10:46:44,021 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/activity/create
+2025-10-18 10:46:44,021 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '自动化测试活动001', 'activityDesc': '这是一个自动化测试创建的活动', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 5, 'prizeTiers': '一等奖'}, {'prizeId': 2, 'prizeAmount': 10, 'prizeTiers': '二等奖'}], 'activityUserList': [{'userId': 17, 'userName': 'testuser1760671217025'}, {'userId': 18, 'userName': '测试用户001'}]}, 'headers': {'admin_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NTU2MDcsImV4cCI6MTc2MDg0MjAwN30.vel-ns-ExdEY3n45HXjl5Y7PDi7sJhup2xHVOc1EmkI'}}
+2025-10-18 10:46:45,424 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：401
+2025-10-18 10:46:45,424 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":401,"msg":"未提供认证令牌"}
+2025-10-18 12:21:25,446 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 12:21:25,446 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 12:21:27,406 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:21:27,406 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjEyOTAsImV4cCI6MTc2MDg0NzY5MH0.uE7pPJfP5ltZL6OIn4UutDZ8E0ceFNtqFCZ0xiamCI4","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 12:21:27,413 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/activity/create
+2025-10-18 12:21:27,413 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '自动化测试活动001', 'activityDesc': '这是一个自动化测试创建的活动', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 5, 'prizeTiers': '一等奖'}, {'prizeId': 2, 'prizeAmount': 10, 'prizeTiers': '二等奖'}], 'activityUserList': [{'userId': 17, 'userName': 'testuser1760671217025'}, {'userId': 18, 'userName': '测试用户001'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjEyOTAsImV4cCI6MTc2MDg0NzY5MH0.uE7pPJfP5ltZL6OIn4UutDZ8E0ceFNtqFCZ0xiamCI4'}}
+2025-10-18 12:21:29,827 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:21:29,827 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 活动描述不能为空！"}
+2025-10-18 12:23:25,917 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 12:23:25,917 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 12:23:26,695 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:23:26,695 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjE0MTAsImV4cCI6MTc2MDg0NzgxMH0.UoLB1fVu2DTQawx3BBNBc4tT21zbOWTR2Ts_Lc6ouaY","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 12:23:26,701 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/activity/create
+2025-10-18 12:23:26,701 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '自动化测试活动001', 'description': '这是一个自动化测试创建的活动', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 5, 'prizeTiers': '一等奖'}, {'prizeId': 2, 'prizeAmount': 10, 'prizeTiers': '二等奖'}], 'activityUserList': [{'userId': 17, 'userName': 'testuser1760671217025'}, {'userId': 18, 'userName': '测试用户001'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjE0MTAsImV4cCI6MTc2MDg0NzgxMH0.UoLB1fVu2DTQawx3BBNBc4tT21zbOWTR2Ts_Lc6ouaY'}}
+2025-10-18 12:23:27,480 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:23:27,480 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":303,"data":null,"msg":"活动关联的奖品及人员数量设置异常"}
+2025-10-18 12:28:12,547 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 12:28:12,547 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 12:28:13,358 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:28:13,358 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjE2OTYsImV4cCI6MTc2MDg0ODA5Nn0.ZRFnhLlmZ4afNJSEjeKE-KvbgqeDeEhUGE226F24wk0","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 12:28:13,364 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/activity/create
+2025-10-18 12:28:13,364 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '自动化测试活动001', 'description': '这是一个自动化测试创建的活动', 'activityPrizeList': {'prizeId': 1, 'prizeAmount': 5, 'prizeTiers': '一等奖'}, 'activityUserList': {'userId': 17, 'userName': 'testuser1760671217025'}}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjE2OTYsImV4cCI6MTc2MDg0ODA5Nn0.ZRFnhLlmZ4afNJSEjeKE-KvbgqeDeEhUGE226F24wk0'}}
+2025-10-18 12:28:17,285 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:28:17,285 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"请求体解析失败或缺失，请检查JSON格式"}
+2025-10-18 12:29:38,557 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 12:29:38,557 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 12:29:39,877 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:29:39,877 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjE3ODMsImV4cCI6MTc2MDg0ODE4M30.HeM-cC5G6nEbcXj3Q8CFvUY0vgB5LgSRPXura-F00_c","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 12:29:39,883 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/activity/create
+2025-10-18 12:29:39,884 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '自动化测试活动001', 'description': '这是一个自动化测试创建的活动', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 5, 'prizeTiers': '一等奖'}], 'activityUserList': [{'userId': 17, 'userName': 'testuser1760671217025'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjE3ODMsImV4cCI6MTc2MDg0ODE4M30.HeM-cC5G6nEbcXj3Q8CFvUY0vgB5LgSRPXura-F00_c'}}
+2025-10-18 12:29:40,669 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:29:40,669 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":303,"data":null,"msg":"活动关联的奖品及人员数量设置异常"}
+2025-10-18 12:31:11,538 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 12:31:11,538 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 12:31:12,292 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:31:12,292 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjE4NzUsImV4cCI6MTc2MDg0ODI3NX0._k7j1O6mXz1SXEYyBrXnBqZwvgGpYW4mGN2nzlt-EnU","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 12:31:12,299 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/activity/create
+2025-10-18 12:31:12,299 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '自动化测试活动001', 'description': '这是一个自动化测试创建的活动', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 5, 'prizeTiers': '一等奖'}], 'activityUserList': [{'userId': 2, 'userName': '2545901319@qq.com'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjE4NzUsImV4cCI6MTc2MDg0ODI3NX0._k7j1O6mXz1SXEYyBrXnBqZwvgGpYW4mGN2nzlt-EnU'}}
+2025-10-18 12:31:13,884 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 12:31:13,884 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":303,"data":null,"msg":"活动关联的奖品及人员数量设置异常"}
+2025-10-18 14:17:30,028 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 14:17:30,029 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 14:17:33,060 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 14:17:33,060 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjgyNTYsImV4cCI6MTc2MDg1NDY1Nn0.W13criYwE5-_op4EH1_I6StR1OQUebRBisIcWjhcRx8","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 14:17:33,067 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://127.0.0.1:8888/activity/activity/create
+2025-10-18 14:17:33,067 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '自动化测试活动001', 'description': '这是一个自动化测试创建的活动', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 5, 'prizeTiers': '一等奖'}], 'activityUserList': [{'userId': 2, 'userName': '2545901319@qq.com'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjgyNTYsImV4cCI6MTc2MDg1NDY1Nn0.W13criYwE5-_op4EH1_I6StR1OQUebRBisIcWjhcRx8'}}
+2025-10-18 14:17:34,496 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 14:17:34,496 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"activityId":13},"msg":"创建抽奖活动成功"}
+2025-10-18 17:44:16,511 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 17:44:16,511 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 17:44:17,249 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:44:17,249 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODA2NjAsImV4cCI6MTc2MDg2NzA2MH0.UDDf0a5g4o2oXonU0mh2HvUYIIc7Kq8grO_htpBALWQ","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 17:44:17,254 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://127.0.0.1:8888/activity/activity/create
+2025-10-18 17:44:17,255 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '自动化测试活动001', 'description': '这是一个自动化测试创建的活动', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 5, 'prizeTiers': '一等奖'}], 'activityUserList': [{'userId': 2, 'userName': '2545901319@qq.com'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjgyNTYsImV4cCI6MTc2MDg1NDY1Nn0.W13criYwE5-_op4EH1_I6StR1OQUebRBisIcWjhcRx8'}}
+2025-10-18 17:44:18,966 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:44:18,966 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"activityId":14},"msg":"创建抽奖活动成功"}
+2025-10-18 17:44:18,972 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://127.0.0.1:8888/activity/activity/create
+2025-10-18 17:44:18,972 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '普通用户创建活动', 'activityDesc': '测试权限控制', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 1, 'prizeTiers': '一等奖'}, {'prizeId': 2, 'prizeAmount': 1, 'prizeTiers': '二等奖'}], 'activityUserList': [{'userId': 2, 'userName': '2545901319@qq.com'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODA2NjAsImV4cCI6MTc2MDg2NzA2MH0.UDDf0a5g4o2oXonU0mh2HvUYIIc7Kq8grO_htpBALWQ'}}
+2025-10-18 17:44:18,994 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:44:18,994 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 活动描述不能为空！"}
+2025-10-18 17:44:57,528 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 17:44:57,528 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 17:44:58,294 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:44:58,294 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODA3MDEsImV4cCI6MTc2MDg2NzEwMX0.fkMhUyQ3dhjbzLfAHmPfv57Zt5j-zvprOSuiqr_zqKE","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 17:44:58,301 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://127.0.0.1:8888/activity/activity/create
+2025-10-18 17:44:58,302 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '自动化测试活动001', 'description': '这是一个自动化测试创建的活动', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 5, 'prizeTiers': '一等奖'}], 'activityUserList': [{'userId': 2, 'userName': '2545901319@qq.com'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3NjgyNTYsImV4cCI6MTc2MDg1NDY1Nn0.W13criYwE5-_op4EH1_I6StR1OQUebRBisIcWjhcRx8'}}
+2025-10-18 17:44:59,750 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:44:59,750 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"activityId":15},"msg":"创建抽奖活动成功"}
+2025-10-18 17:44:59,755 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://127.0.0.1:8888/activity/activity/create
+2025-10-18 17:44:59,756 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '普通用户创建活动', 'description': '测试权限控制', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 1, 'prizeTiers': '一等奖'}, {'prizeId': 2, 'prizeAmount': 1, 'prizeTiers': '二等奖'}], 'activityUserList': [{'userId': 2, 'userName': '2545901319@qq.com'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODA3MDEsImV4cCI6MTc2MDg2NzEwMX0.fkMhUyQ3dhjbzLfAHmPfv57Zt5j-zvprOSuiqr_zqKE'}}
+2025-10-18 17:44:59,776 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:44:59,776 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":403,"data":null,"msg":"权限不足"}
+2025-10-18 17:46:08,970 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 17:46:08,970 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 17:46:11,250 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:46:11,250 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODA3NzQsImV4cCI6MTc2MDg2NzE3NH0.z65z-DlKGN6SOGGJnY_egn0mi3j3GuEXzz9eT2QC23g","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 17:46:11,256 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://127.0.0.1:8888/activity/activity/create
+2025-10-18 17:46:11,257 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '普通用户创建活动', 'description': '测试权限控制', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 1, 'prizeTiers': '一等奖'}, {'prizeId': 2, 'prizeAmount': 1, 'prizeTiers': '二等奖'}], 'activityUserList': [{'userId': 2, 'userName': '2545901319@qq.com'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODA3NzQsImV4cCI6MTc2MDg2NzE3NH0.z65z-DlKGN6SOGGJnY_egn0mi3j3GuEXzz9eT2QC23g'}}
+2025-10-18 17:46:11,269 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:46:11,269 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":403,"data":null,"msg":"权限不足"}
+2025-10-18 17:54:06,365 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 17:54:06,365 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 17:54:07,157 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:54:07,157 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODEyNTAsImV4cCI6MTc2MDg2NzY1MH0.9HTNRTTmmzxbpzqi_uCVr8Xql9Zn5yxuj2Vuj9WHCwk","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 17:54:07,161 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/activity/create
+2025-10-18 17:54:07,161 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '普通用户创建活动', 'description': '测试权限控制', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 1, 'prizeTiers': '一等奖'}, {'prizeId': 2, 'prizeAmount': 1, 'prizeTiers': '二等奖'}], 'activityUserList': [{'userId': 2, 'userName': '2545901319@qq.com'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODEyNTAsImV4cCI6MTc2MDg2NzY1MH0.9HTNRTTmmzxbpzqi_uCVr8Xql9Zn5yxuj2Vuj9WHCwk'}}
+2025-10-18 17:54:09,632 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:54:09,632 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":403,"data":null,"msg":"权限不足"}
+2025-10-18 17:56:24,474 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 17:56:24,474 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 17:56:25,246 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:56:25,246 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODEzODgsImV4cCI6MTc2MDg2Nzc4OH0.Ne6ReMjkniwtzJvTo8K56vrm3ScJlAsZIKt_ycnhd-4","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 17:56:25,251 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://127.0.0.1:8888/activity/activity/create
+2025-10-18 17:56:25,251 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityName': '普通用户创建活动', 'description': '测试权限控制', 'activityPrizeList': [{'prizeId': 1, 'prizeAmount': 1, 'prizeTiers': '一等奖'}, {'prizeId': 2, 'prizeAmount': 1, 'prizeTiers': '二等奖'}], 'activityUserList': [{'userId': 2, 'userName': '2545901319@qq.com'}]}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODEzODgsImV4cCI6MTc2MDg2Nzc4OH0.Ne6ReMjkniwtzJvTo8K56vrm3ScJlAsZIKt_ycnhd-4'}}
+2025-10-18 17:56:25,289 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:56:25,289 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":403,"data":null,"msg":"权限不足"}
+2025-10-18 17:58:43,216 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 17:58:43,216 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 17:58:44,708 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 17:58:44,708 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODE1MjgsImV4cCI6MTc2MDg2NzkyOH0.l6Xuz_M7XyWtD6XyJqwoP2mtx5DKD8D11PYM67PXP1g","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 17:58:44,712 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/activity/activity/find-list
+2025-10-18 17:58:44,712 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'currentPage': 1, 'pageSize': 10}}
+2025-10-18 17:58:45,488 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：401
+2025-10-18 17:58:45,488 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":401,"msg":"未提供认证令牌"}
+2025-10-18 18:02:43,290 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:02:43,290 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 18:02:45,065 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:02:45,065 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODE3NjgsImV4cCI6MTc2MDg2ODE2OH0.No2lMlcVQerkT4sgncIWYzOpNlGRuVT3Oq69RvefBSM","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 18:02:45,069 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/activity/activity/find-list
+2025-10-18 18:02:45,069 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'currentPage': 1, 'pageSize': 10}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODE3NjgsImV4cCI6MTc2MDg2ODE2OH0.No2lMlcVQerkT4sgncIWYzOpNlGRuVT3Oq69RvefBSM'}}
+2025-10-18 18:02:46,871 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 18:02:46,871 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"total":14,"records":[{"activityId":15,"activityName":"自动化测试活动001","description":"这是一个自动化测试创建的活动","endDate":"2025-10-25T16:00:01.000+00:00","valid":true},{"activityId":14,"activityName":"自动化测试活动001","description":"这是一个自动化测试创建的活动","endDate":"2025-10-25T16:00:01.000+00:00","valid":true},{"activityId":13,"activityName":"自动化测试活动001","description":"这是一个自动化测试创建的活动","endDate":"2025-10-25T16:00:01.000+00:00","valid":true},{"activityId":11,"activityName":"幸运好礼免费送","description":"无任何参与门槛，随机抽选用户，免费派发一、二、三等奖不同等级惊喜礼品。\n","endDate":"2025-10-24T16:00:01.000+00:00","valid":false},{"activityId":10,"activityName":"惊喜福利随机领","description":"不设参与限制，系统随机筛选幸运者，各等级好礼直接免费派送。","endDate":"2025-10-24T16:00:01.000+00:00","valid":true},{"activityId":9,"activityName":"秋日惊喜福利抽","description":"全程无门槛，随机抽取用户，免费派送一、二、三等奖不同价值礼品，为秋日添份惊喜。","endDate":"2025-10-22T16:00:01.000+00:00","valid":true},{"activityId":8,"activityName":"品质生活好物礼","description":"汇集多元品质好物，从日常使用到休闲享受，满足不同生活场景需求。","endDate":"2025-10-22T16:00:01.000+00:00","valid":true},{"activityId":7,"activityName":"秋日驾趣焕新抽奖","description":"以近期热门的极氪001 FR、问界M9（智驾版）、小米SU7 Max三款高关注度汽车作为核心奖品，为汽车爱好者提供解锁潮流座驾的机会。","endDate":"2025-10-21T16:00:01.000+00:00","valid":true},{"activityId":6,"activityName":"数码潮品狂欢抽奖","description":"「数码潮品狂欢抽奖」活动，为数码发烧友带来福利，设置最新款旗舰笔记本电脑、数码相机等奖品。","endDate":"2025-10-21T16:00:01.000+00:00","valid":true},{"activityId":5,"activityName":"居家生活焕新礼","description":"设置极米 H6 高端家用投影等奖品，助力居家生活品质提升。","endDate":"2025-10-21T16:00:01.000+00:00","valid":true}]},"msg":"获取抽奖活动列表成功"}
+2025-10-18 18:04:48,259 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:04:48,259 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 18:04:49,064 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:04:49,065 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODE4OTIsImV4cCI6MTc2MDg2ODI5Mn0.VtfZNXY5wPAEG0rMHw7UzJ_EU6h8dpFGUbjjLnsxpxo","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 18:09:54,294 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:09:54,294 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 18:09:57,223 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:09:57,223 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODIxOTksImV4cCI6MTc2MDg2ODU5OX0.swzG1a8LS9Ynu6524fzOJll0sJl94AmVabVRJ-BCGWc","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 18:09:57,228 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/activity/activity-detail/find
+2025-10-18 18:09:57,229 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'activityId': 1}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODIxOTksImV4cCI6MTc2MDg2ODU5OX0.swzG1a8LS9Ynu6524fzOJll0sJl94AmVabVRJ-BCGWc'}}
+2025-10-18 18:09:57,980 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 18:09:57,980 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"系统内部错误，请联系管理员处理"}
+2025-10-18 18:10:22,872 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:10:22,872 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 18:10:24,373 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:10:24,373 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODIyMjcsImV4cCI6MTc2MDg2ODYyN30.MvG6BJ1DkvGOMDP5uebs7JtFNsE3tMJz14JCtWWcYyg","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 18:10:24,379 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/activity/activity-detail/find
+2025-10-18 18:10:24,379 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'activityId': 1}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODIyMjcsImV4cCI6MTc2MDg2ODYyN30.MvG6BJ1DkvGOMDP5uebs7JtFNsE3tMJz14JCtWWcYyg'}}
+2025-10-18 18:10:25,161 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 18:10:25,162 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"系统内部错误，请联系管理员处理"}
+2025-10-18 18:29:56,147 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:29:56,148 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 18:29:57,622 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:29:57,622 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODM0MDEsImV4cCI6MTc2MDg2OTgwMX0.1CKKWbsoXdWbGqfWynMoK-5qxXAIKB-Z3eXgJF9i0D0","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 18:29:57,627 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/activity/activity-detail/find
+2025-10-18 18:29:57,627 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'activityId': 1}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODM0MDEsImV4cCI6MTc2MDg2OTgwMX0.1CKKWbsoXdWbGqfWynMoK-5qxXAIKB-Z3eXgJF9i0D0'}}
+2025-10-18 18:29:59,820 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 18:29:59,820 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"系统内部错误，请联系管理员处理"}
+2025-10-18 18:30:55,280 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:30:55,280 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 18:30:56,090 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:30:56,090 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODM0NTksImV4cCI6MTc2MDg2OTg1OX0.1Hof-0R4GAp9sPxAnBMRx6TaV5GKttjKQ7rSgpeBoDs","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 18:30:56,095 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/activity/activity-detail/find
+2025-10-18 18:30:56,095 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'activityId': 100}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODM0NTksImV4cCI6MTc2MDg2OTg1OX0.1Hof-0R4GAp9sPxAnBMRx6TaV5GKttjKQ7rSgpeBoDs'}}
+2025-10-18 18:30:56,888 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 18:30:56,888 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":500,"data":null,"msg":"系统内部错误，请联系管理员处理"}
+2025-10-18 18:39:18,804 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:39:18,804 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 18:39:19,557 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:39:19,557 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODM5NjMsImV4cCI6MTc2MDg3MDM2M30.YcgRWw0GilzMyD6I-dMchPGdsrBtLNFOZCVm6rIryNg","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 18:39:19,561 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:39:19,561 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 18:39:20,337 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:39:20,337 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3ODM5NjMsImV4cCI6MTc2MDg3MDM2M30.AAFyv6NSGf7VTn9Eia36LS0SwbVhlW1yfo6UtUXEpp4","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 18:39:20,341 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/end
+2025-10-18 18:39:20,341 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3ODM5NjMsImV4cCI6MTc2MDg3MDM2M30.AAFyv6NSGf7VTn9Eia36LS0SwbVhlW1yfo6UtUXEpp4'}}
+2025-10-18 18:39:21,578 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：404
+2025-10-18 18:39:21,578 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"timestamp":"2025-10-18T10:39:25.183+00:00","status":404,"error":"Not Found","path":"/activity/end"}
+2025-10-18 18:45:20,104 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:45:20,104 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 18:45:20,877 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:45:20,878 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODQzMjQsImV4cCI6MTc2MDg3MDcyNH0.GS2Oh4p5q2KvcXVjY606KyfRDSCg5WKihIAiJPezQKE","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 18:45:20,900 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:45:20,900 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 18:45:22,623 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:45:22,623 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3ODQzMjYsImV4cCI6MTc2MDg3MDcyNn0.j-5BVJR0zL7zLtLsazMsUKEp3tY4qgTfbvgDZ-fkQPA","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 18:45:22,646 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/end/10
+2025-10-18 18:45:22,647 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3ODQzMjYsImV4cCI6MTc2MDg3MDcyNn0.j-5BVJR0zL7zLtLsazMsUKEp3tY4qgTfbvgDZ-fkQPA'}}
+2025-10-18 18:45:23,889 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:45:23,890 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":null,"msg":"活动已结束"}
+2025-10-18 18:49:43,016 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:49:43,016 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 18:49:43,761 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:49:43,761 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3ODQ1ODcsImV4cCI6MTc2MDg3MDk4N30.NDGiKo98BCfXD-OLvtFf0UopO5iWiI4SjH0j2EzneD8","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 18:49:43,764 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 18:49:43,765 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 18:49:45,555 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 18:49:45,555 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3ODQ1ODksImV4cCI6MTc2MDg3MDk4OX0.b91IUgkVnTiFJs4xYnrKjYNMG9zWNrE5sYzZGYsH2Qg","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 18:49:45,559 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/activity/delete/15
+2025-10-18 18:49:45,560 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3ODQ1ODksImV4cCI6MTc2MDg3MDk4OX0.b91IUgkVnTiFJs4xYnrKjYNMG9zWNrE5sYzZGYsH2Qg'}}
+2025-10-18 18:49:46,699 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：405
+2025-10-18 18:49:46,699 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"timestamp":"2025-10-18T10:49:50.313+00:00","status":405,"error":"Method Not Allowed","path":"/activity/delete/15"}
+2025-10-18 22:26:50,560 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 22:26:50,560 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 22:26:54,602 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 22:26:54,602 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA3OTc2MTYsImV4cCI6MTc2MDg4NDAxNn0.x3aAdLYntXKiy0mK4CVhFqB7Q-UuU2AJ6rrWtn_LN0k","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 22:26:54,606 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 22:26:54,606 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 22:26:55,359 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 22:26:55,360 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3OTc2MTksImV4cCI6MTc2MDg4NDAxOX0.chdnCv7qqBIALYUJZezCG-ozrxCwo5QcKiMmGC_vG3Y","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 22:26:55,365 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://127.0.0.1:8888/activity/delete/15
+2025-10-18 22:26:55,365 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA3OTc2MTksImV4cCI6MTc2MDg4NDAxOX0.chdnCv7qqBIALYUJZezCG-ozrxCwo5QcKiMmGC_vG3Y'}}
+2025-10-18 22:26:55,388 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：405
+2025-10-18 22:26:55,389 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"timestamp":"2025-10-18T14:26:55.384+00:00","status":405,"error":"Method Not Allowed","trace":"org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported\r\n\tat org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:267)\r\n\tat org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)\r\n\tat org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)\r\n\tat org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:127)\r\n\tat org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)\r\n\tat org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:507)\r\n\tat org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1284)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1065)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\r\n\tat org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)\r\n\tat java.base/java.lang.Thread.run(Thread.java:842)\r\n","message":"Method 'POST' is not supported.","path":"/activity/delete/15"}
+2025-10-18 23:06:50,499 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:06:50,499 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:06:51,325 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:06:51,325 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDAwMTUsImV4cCI6MTc2MDg4NjQxNX0.hyA_xfc_pnlZ2FF2HgkR6eEl00nVNFLT9pjxEYUXFmA","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:06:51,330 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:06:51,330 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:06:52,124 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:06:52,124 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDAwMTYsImV4cCI6MTc2MDg4NjQxNn0.do5EsubvlRbDzZ_8Xb3DaIj6yA4aq2OXQ5TRBhGW8zQ","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:06:52,128 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/find-list
+2025-10-18 23:06:52,128 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'currentPage': 1, 'pageSize': 10}}
+2025-10-18 23:06:52,902 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:06:52,902 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"total":25,"records":[{"prizeId":25,"prizeName":"小米 SU7 Max","description":"小米 SU7 Max","price":299000.00,"imageUrl":"ca57e6f3-3557-4faa-bf21-48e057c3f4c7.png","status":"ENABLED"},{"prizeId":24,"prizeName":"极氪 001 FR","description":"极氪 001 FR","price":769000.00,"imageUrl":"0e352d9a-aac2-4513-85c1-e0e7c8bb690e.png","status":"ENABLED"},{"prizeId":23,"prizeName":"问界 M9 纯电 Ultra","description":"问界 M9 纯电 Ultra","price":549800.00,"imageUrl":"825e3db2-8209-47c1-8d94-1dbe2f29798f.png","status":"ENABLED"},{"prizeId":22,"prizeName":"大疆 DJI Osmo Action 4灵眸运动相机","description":"大疆 DJI Osmo Action 4灵眸运动相机","price":1362.00,"imageUrl":"bd837d93-ddc6-40bb-96e7-2e80944a85ae.png","status":"ENABLED"},{"prizeId":21,"prizeName":"MacBookPro M4 14英寸2025 苹果笔记本电脑","description":"MacBookPro M4 14英寸2025 苹果笔记本电脑","price":12999.00,"imageUrl":"61c32ad7-b7ee-4b46-ac5d-ddf58f0a1eb8.png","status":"ENABLED"},{"prizeId":20,"prizeName":"小米(MI) 小米平板7 Pro","description":"小米(MI) 小米平板7 Pro","price":2099.00,"imageUrl":"508a4b10-0d6a-408f-abf4-acd3cb48f6c0.png","status":"ENABLED"},{"prizeId":19,"prizeName":"联想拯救者Y7000P 电竞游戏笔记本电脑","description":"联想拯救者Y7000P 电竞游戏笔记本电脑","price":9699.00,"imageUrl":"894b3d17-64fb-4bce-b304-021cf6fb0ac2.png","status":"ENABLED"},{"prizeId":18,"prizeName":"星巴克（Starbucks）200 元储值卡","description":"星巴克（Starbucks）200 元储值卡","price":200.00,"imageUrl":"2c1014f8-bf93-4ebc-839e-329f97074f84.png","status":"ENABLED"},{"prizeId":17,"prizeName":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","description":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","price":3669.00,"imageUrl":"17b386c0-2fb4-464d-a14f-573819c6f278.png","status":"ENABLED"},{"prizeId":16,"prizeName":"奥佳华（OGAWA）多功能按摩椅","description":"奥佳华（OGAWA）多功能按摩椅","price":9348.00,"imageUrl":"c1247627-64b7-4c21-89a5-a12d1dfb2c6b.png","status":"ENABLED"}]},"msg":"查询奖品列表成功"}
+2025-10-18 23:08:11,784 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:08:11,784 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:08:13,198 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:08:13,198 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDAwOTcsImV4cCI6MTc2MDg4NjQ5N30.kJ1eFVDNk5S8Xnyuze56zun9F3HrzO4VnlixjWzjjZg","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:08:13,202 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:08:13,202 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:08:16,758 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:08:16,758 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDAxMDAsImV4cCI6MTc2MDg4NjUwMH0._Sa38Fc6c7lgusXEzf2zq73x6k-bn1gYu7tB-nWiYJM","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:08:16,762 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/find-list
+2025-10-18 23:08:16,763 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'currentPage': 1, 'pageSize': 10}}
+2025-10-18 23:08:17,478 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:08:17,479 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"total":25,"records":[{"prizeId":25,"prizeName":"小米 SU7 Max","description":"小米 SU7 Max","price":299000.00,"imageUrl":"ca57e6f3-3557-4faa-bf21-48e057c3f4c7.png","status":"ENABLED"},{"prizeId":24,"prizeName":"极氪 001 FR","description":"极氪 001 FR","price":769000.00,"imageUrl":"0e352d9a-aac2-4513-85c1-e0e7c8bb690e.png","status":"ENABLED"},{"prizeId":23,"prizeName":"问界 M9 纯电 Ultra","description":"问界 M9 纯电 Ultra","price":549800.00,"imageUrl":"825e3db2-8209-47c1-8d94-1dbe2f29798f.png","status":"ENABLED"},{"prizeId":22,"prizeName":"大疆 DJI Osmo Action 4灵眸运动相机","description":"大疆 DJI Osmo Action 4灵眸运动相机","price":1362.00,"imageUrl":"bd837d93-ddc6-40bb-96e7-2e80944a85ae.png","status":"ENABLED"},{"prizeId":21,"prizeName":"MacBookPro M4 14英寸2025 苹果笔记本电脑","description":"MacBookPro M4 14英寸2025 苹果笔记本电脑","price":12999.00,"imageUrl":"61c32ad7-b7ee-4b46-ac5d-ddf58f0a1eb8.png","status":"ENABLED"},{"prizeId":20,"prizeName":"小米(MI) 小米平板7 Pro","description":"小米(MI) 小米平板7 Pro","price":2099.00,"imageUrl":"508a4b10-0d6a-408f-abf4-acd3cb48f6c0.png","status":"ENABLED"},{"prizeId":19,"prizeName":"联想拯救者Y7000P 电竞游戏笔记本电脑","description":"联想拯救者Y7000P 电竞游戏笔记本电脑","price":9699.00,"imageUrl":"894b3d17-64fb-4bce-b304-021cf6fb0ac2.png","status":"ENABLED"},{"prizeId":18,"prizeName":"星巴克（Starbucks）200 元储值卡","description":"星巴克（Starbucks）200 元储值卡","price":200.00,"imageUrl":"2c1014f8-bf93-4ebc-839e-329f97074f84.png","status":"ENABLED"},{"prizeId":17,"prizeName":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","description":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","price":3669.00,"imageUrl":"17b386c0-2fb4-464d-a14f-573819c6f278.png","status":"ENABLED"},{"prizeId":16,"prizeName":"奥佳华（OGAWA）多功能按摩椅","description":"奥佳华（OGAWA）多功能按摩椅","price":9348.00,"imageUrl":"c1247627-64b7-4c21-89a5-a12d1dfb2c6b.png","status":"ENABLED"}]},"msg":"查询奖品列表成功"}
+2025-10-18 23:08:46,060 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:08:46,060 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:08:48,390 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:08:48,390 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDAxMzIsImV4cCI6MTc2MDg4NjUzMn0.KBm31Ebjl6HVvQtU_H4i19ISGbjCABUxZjghvLF6ifQ","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:08:48,394 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:08:48,394 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:08:50,283 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:08:50,283 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDAxMzQsImV4cCI6MTc2MDg4NjUzNH0.n95cbD73aRYDbgc6OLFyMzFAUT-u8bMU8iGvFZai1KM","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:08:50,286 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/find-list
+2025-10-18 23:08:50,287 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'currentPage': 1, 'pageSize': 10}}
+2025-10-18 23:08:51,086 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:08:51,086 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"total":25,"records":[{"prizeId":25,"prizeName":"小米 SU7 Max","description":"小米 SU7 Max","price":299000.00,"imageUrl":"ca57e6f3-3557-4faa-bf21-48e057c3f4c7.png","status":"ENABLED"},{"prizeId":24,"prizeName":"极氪 001 FR","description":"极氪 001 FR","price":769000.00,"imageUrl":"0e352d9a-aac2-4513-85c1-e0e7c8bb690e.png","status":"ENABLED"},{"prizeId":23,"prizeName":"问界 M9 纯电 Ultra","description":"问界 M9 纯电 Ultra","price":549800.00,"imageUrl":"825e3db2-8209-47c1-8d94-1dbe2f29798f.png","status":"ENABLED"},{"prizeId":22,"prizeName":"大疆 DJI Osmo Action 4灵眸运动相机","description":"大疆 DJI Osmo Action 4灵眸运动相机","price":1362.00,"imageUrl":"bd837d93-ddc6-40bb-96e7-2e80944a85ae.png","status":"ENABLED"},{"prizeId":21,"prizeName":"MacBookPro M4 14英寸2025 苹果笔记本电脑","description":"MacBookPro M4 14英寸2025 苹果笔记本电脑","price":12999.00,"imageUrl":"61c32ad7-b7ee-4b46-ac5d-ddf58f0a1eb8.png","status":"ENABLED"},{"prizeId":20,"prizeName":"小米(MI) 小米平板7 Pro","description":"小米(MI) 小米平板7 Pro","price":2099.00,"imageUrl":"508a4b10-0d6a-408f-abf4-acd3cb48f6c0.png","status":"ENABLED"},{"prizeId":19,"prizeName":"联想拯救者Y7000P 电竞游戏笔记本电脑","description":"联想拯救者Y7000P 电竞游戏笔记本电脑","price":9699.00,"imageUrl":"894b3d17-64fb-4bce-b304-021cf6fb0ac2.png","status":"ENABLED"},{"prizeId":18,"prizeName":"星巴克（Starbucks）200 元储值卡","description":"星巴克（Starbucks）200 元储值卡","price":200.00,"imageUrl":"2c1014f8-bf93-4ebc-839e-329f97074f84.png","status":"ENABLED"},{"prizeId":17,"prizeName":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","description":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","price":3669.00,"imageUrl":"17b386c0-2fb4-464d-a14f-573819c6f278.png","status":"ENABLED"},{"prizeId":16,"prizeName":"奥佳华（OGAWA）多功能按摩椅","description":"奥佳华（OGAWA）多功能按摩椅","price":9348.00,"imageUrl":"c1247627-64b7-4c21-89a5-a12d1dfb2c6b.png","status":"ENABLED"}]},"msg":"查询奖品列表成功"}
+2025-10-18 23:09:51,735 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:09:51,735 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:09:52,521 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:09:52,521 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDAxOTYsImV4cCI6MTc2MDg4NjU5Nn0.ZDvc023Q26-F3VKoqevBx4Bpw7jwCcGYlCK4PQuALyI","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:09:52,524 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:09:52,525 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:09:53,273 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:09:53,273 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDAxOTcsImV4cCI6MTc2MDg4NjU5N30.G28HsLElQoAyM3b0J8iK4DQIwQu3NJEbdDbCe9ykNlI","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:09:53,276 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/find-list
+2025-10-18 23:09:53,276 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'currentPage': 1, 'pageSize': 5}}
+2025-10-18 23:09:55,519 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:09:55,519 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"total":25,"records":[{"prizeId":25,"prizeName":"小米 SU7 Max","description":"小米 SU7 Max","price":299000.00,"imageUrl":"ca57e6f3-3557-4faa-bf21-48e057c3f4c7.png","status":"ENABLED"},{"prizeId":24,"prizeName":"极氪 001 FR","description":"极氪 001 FR","price":769000.00,"imageUrl":"0e352d9a-aac2-4513-85c1-e0e7c8bb690e.png","status":"ENABLED"},{"prizeId":23,"prizeName":"问界 M9 纯电 Ultra","description":"问界 M9 纯电 Ultra","price":549800.00,"imageUrl":"825e3db2-8209-47c1-8d94-1dbe2f29798f.png","status":"ENABLED"},{"prizeId":22,"prizeName":"大疆 DJI Osmo Action 4灵眸运动相机","description":"大疆 DJI Osmo Action 4灵眸运动相机","price":1362.00,"imageUrl":"bd837d93-ddc6-40bb-96e7-2e80944a85ae.png","status":"ENABLED"},{"prizeId":21,"prizeName":"MacBookPro M4 14英寸2025 苹果笔记本电脑","description":"MacBookPro M4 14英寸2025 苹果笔记本电脑","price":12999.00,"imageUrl":"61c32ad7-b7ee-4b46-ac5d-ddf58f0a1eb8.png","status":"ENABLED"}]},"msg":"查询奖品列表成功"}
+2025-10-18 23:09:55,520 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/find-list
+2025-10-18 23:09:55,520 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'currentPage': 2, 'pageSize': 5}}
+2025-10-18 23:09:56,323 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:09:56,323 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"total":25,"records":[{"prizeId":20,"prizeName":"小米(MI) 小米平板7 Pro","description":"小米(MI) 小米平板7 Pro","price":2099.00,"imageUrl":"508a4b10-0d6a-408f-abf4-acd3cb48f6c0.png","status":"ENABLED"},{"prizeId":19,"prizeName":"联想拯救者Y7000P 电竞游戏笔记本电脑","description":"联想拯救者Y7000P 电竞游戏笔记本电脑","price":9699.00,"imageUrl":"894b3d17-64fb-4bce-b304-021cf6fb0ac2.png","status":"ENABLED"},{"prizeId":18,"prizeName":"星巴克（Starbucks）200 元储值卡","description":"星巴克（Starbucks）200 元储值卡","price":200.00,"imageUrl":"2c1014f8-bf93-4ebc-839e-329f97074f84.png","status":"ENABLED"},{"prizeId":17,"prizeName":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","description":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","price":3669.00,"imageUrl":"17b386c0-2fb4-464d-a14f-573819c6f278.png","status":"ENABLED"},{"prizeId":16,"prizeName":"奥佳华（OGAWA）多功能按摩椅","description":"奥佳华（OGAWA）多功能按摩椅","price":9348.00,"imageUrl":"c1247627-64b7-4c21-89a5-a12d1dfb2c6b.png","status":"ENABLED"}]},"msg":"查询奖品列表成功"}
+2025-10-18 23:09:56,324 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/find-list
+2025-10-18 23:09:56,324 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'currentPage': 1, 'pageSize': 20}}
+2025-10-18 23:10:00,448 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:10:00,448 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":{"total":25,"records":[{"prizeId":25,"prizeName":"小米 SU7 Max","description":"小米 SU7 Max","price":299000.00,"imageUrl":"ca57e6f3-3557-4faa-bf21-48e057c3f4c7.png","status":"ENABLED"},{"prizeId":24,"prizeName":"极氪 001 FR","description":"极氪 001 FR","price":769000.00,"imageUrl":"0e352d9a-aac2-4513-85c1-e0e7c8bb690e.png","status":"ENABLED"},{"prizeId":23,"prizeName":"问界 M9 纯电 Ultra","description":"问界 M9 纯电 Ultra","price":549800.00,"imageUrl":"825e3db2-8209-47c1-8d94-1dbe2f29798f.png","status":"ENABLED"},{"prizeId":22,"prizeName":"大疆 DJI Osmo Action 4灵眸运动相机","description":"大疆 DJI Osmo Action 4灵眸运动相机","price":1362.00,"imageUrl":"bd837d93-ddc6-40bb-96e7-2e80944a85ae.png","status":"ENABLED"},{"prizeId":21,"prizeName":"MacBookPro M4 14英寸2025 苹果笔记本电脑","description":"MacBookPro M4 14英寸2025 苹果笔记本电脑","price":12999.00,"imageUrl":"61c32ad7-b7ee-4b46-ac5d-ddf58f0a1eb8.png","status":"ENABLED"},{"prizeId":20,"prizeName":"小米(MI) 小米平板7 Pro","description":"小米(MI) 小米平板7 Pro","price":2099.00,"imageUrl":"508a4b10-0d6a-408f-abf4-acd3cb48f6c0.png","status":"ENABLED"},{"prizeId":19,"prizeName":"联想拯救者Y7000P 电竞游戏笔记本电脑","description":"联想拯救者Y7000P 电竞游戏笔记本电脑","price":9699.00,"imageUrl":"894b3d17-64fb-4bce-b304-021cf6fb0ac2.png","status":"ENABLED"},{"prizeId":18,"prizeName":"星巴克（Starbucks）200 元储值卡","description":"星巴克（Starbucks）200 元储值卡","price":200.00,"imageUrl":"2c1014f8-bf93-4ebc-839e-329f97074f84.png","status":"ENABLED"},{"prizeId":17,"prizeName":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","description":"SKG 颈椎按摩器 颈部G7 2代豪华款+腰部G7豪华款+眼部E9","price":3669.00,"imageUrl":"17b386c0-2fb4-464d-a14f-573819c6f278.png","status":"ENABLED"},{"prizeId":16,"prizeName":"奥佳华（OGAWA）多功能按摩椅","description":"奥佳华（OGAWA）多功能按摩椅","price":9348.00,"imageUrl":"c1247627-64b7-4c21-89a5-a12d1dfb2c6b.png","status":"ENABLED"},{"prizeId":15,"prizeName":"YONEX/尤尼克斯天斧系列 ASTROX 100 TOUR yy 全碳素轻量 羽毛球拍","description":"YONEX/尤尼克斯天斧系列 ASTROX 100 TOUR yy 全碳素轻量 羽毛球拍","price":1180.00,"imageUrl":"a06e4da9-de44-4e3b-ad3f-c7cbee0e70b6.png","status":"ENABLED"},{"prizeId":14,"prizeName":"耐克（NIKE）男鞋AIR ZOOM PEGASUS 41飞马专业跑鞋","description":"耐克（NIKE）男鞋AIR ZOOM PEGASUS 41飞马专业跑鞋","price":605.00,"imageUrl":"559d3beb-fb9d-4428-b241-eb2f3fa3d54c.png","status":"ENABLED"},{"prizeId":13,"prizeName":"高驰COROS PACE 3 智能手表","description":"高驰COROS PACE 3 智能手表","price":1699.00,"imageUrl":"fc73eb60-d545-49a3-8046-7fccac092440.png","status":"ENABLED"},{"prizeId":12,"prizeName":"小米 米家智能充电宝20000毫安","description":"小米 米家智能充电宝20000毫安","price":249.00,"imageUrl":"4c0be6aa-5611-4c89-8f3a-aa9883a255f0.png","status":"ENABLED"},{"prizeId":11,"prizeName":"苹果 AirPods Pro 2 无线降噪耳机","description":"苹果 AirPods Pro 2 无线降噪耳机","price":1168.00,"imageUrl":"5d38febd-bed1-4605-9f1a-132255115fd2.png","status":"ENABLED"},{"prizeId":10,"prizeName":"Apple 苹果 iPad Air6","description":"Apple 苹果 iPad Air6","price":2966.00,"imageUrl":"05975531-76f3-43bb-b4cb-acdbe7ff85b1.png","status":"ENABLED"},{"prizeId":9,"prizeName":"九阳（Joyoung）电饭煲","description":"九阳（Joyoung）电饭煲","price":460.00,"imageUrl":"be41b3f8-9d00-4ae8-a714-8107bdfefdf3.png","status":"ENABLED"},{"prizeId":8,"prizeName":"海尔（Haier）冰箱","description":"海尔（Haier）冰箱","price":2599.00,"imageUrl":"4d9094b5-970e-4918-abfc-ee7b3df2b460.png","status":"ENABLED"},{"prizeId":7,"prizeName":"极米 H6  高端家用投影仪","description":"极米 H6  高端家用投影仪","price":4234.00,"imageUrl":"fe5f33c5-82b3-455d-a896-d18ce58435c0.png","status":"ENABLED"},{"prizeId":6,"prizeName":"兰博基尼5元代金券","description":"兰博基尼5元代金券","price":5.00,"imageUrl":"cd91c75c-0e0a-407d-b0d0-8ae4f27bd785.png","status":"ENABLED"}]},"msg":"查询奖品列表成功"}
+2025-10-18 23:13:07,761 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:13:07,761 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:13:08,580 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:13:08,580 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDAzOTIsImV4cCI6MTc2MDg4Njc5Mn0.wR1Qfd8TR-kI6a_ri16fitvC4o2iOIxR2skwjlzRgiU","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:13:08,584 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:13:08,584 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:13:09,401 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:13:09,401 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDAzOTMsImV4cCI6MTc2MDg4Njc5M30.vllY9a4sV1t9BZL2FTVRMUW4Rb5S-GURSGO1Mck4dMg","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:13:09,405 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/61023395-838a-4b57-80fe-34192f18b6a5.jpg
+2025-10-18 23:13:09,405 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:13:10,223 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:13:10,402 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:13:40,826 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:13:40,826 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:13:42,623 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:13:42,623 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDA0MjYsImV4cCI6MTc2MDg4NjgyNn0.s_vAtEIJ7sZH_s0Lwzd6K64Tt2rOCLqDW6FThEWmdaI","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:13:42,627 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:13:42,627 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:13:43,430 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:13:43,431 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDA0MjcsImV4cCI6MTc2MDg4NjgyN30.FnKuvAkeT8s6xfxOGwmxUIqD7b93i1_rqJ-EUaq66QU","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:13:43,435 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/61023395-838a-4b57-80fe-34192f18b6a5.jpg
+2025-10-18 23:13:43,435 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:13:45,560 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:13:45,596 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:13:45,597 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/nonexistent-image.jpg
+2025-10-18 23:13:45,598 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:13:47,517 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:13:47,517 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:15:01,955 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:15:01,955 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:15:02,744 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:15:02,744 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDA1MDYsImV4cCI6MTc2MDg4NjkwNn0.VlsH_Cb8uYXytUOzu4DY_i3Hzk9CyIfdvYWr2sLSIfg","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:15:02,749 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:15:02,749 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:15:04,347 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:15:04,347 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDA1MDgsImV4cCI6MTc2MDg4NjkwOH0.3XIfAUAIyQlE18V_Z232iRhx28hSA-udSPADbYFU7IA","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:15:04,350 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/61023395-838a-4b57-80fe-34192f18b6a5.jpg
+2025-10-18 23:15:04,350 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:15:05,105 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:15:05,138 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:15:05,140 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/nonexistent-image.jpg
+2025-10-18 23:15:05,140 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:15:09,286 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:15:09,286 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:15:49,485 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:15:49,485 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:15:51,257 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:15:51,257 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDA1NTUsImV4cCI6MTc2MDg4Njk1NX0.sGemAKAEyYTfxOHCOjGurMUZug-N8_gGCJGvT5fhGG4","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:15:51,262 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:15:51,262 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:15:53,662 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:15:53,662 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDA1NTcsImV4cCI6MTc2MDg4Njk1N30.goVbEXFs0KJwu_24um2EN7hYTq_vpRVrqys6IIBzuqQ","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:15:53,666 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/61023395-838a-4b57-80fe-34192f18b6a5.jpg
+2025-10-18 23:15:53,666 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:15:56,820 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:15:56,855 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:15:56,857 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/nonexistent-image.jpg
+2025-10-18 23:15:56,857 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:15:57,665 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:15:57,665 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:21:44,635 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:21:44,635 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:21:45,969 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:21:45,969 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDA5MTAsImV4cCI6MTc2MDg4NzMxMH0.9varUIUsvAL1apZHAUYs85avQy_1g5XRfrbbuaCwKxI","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:21:45,980 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:21:45,980 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:21:47,317 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:21:47,317 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDA5MTEsImV4cCI6MTc2MDg4NzMxMX0.x5oYtgPT4rRVYYedkAF-kWuXTnM7HV-1TuYWBs-avAI","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:21:47,321 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/61023395-838a-4b57-80fe-34192f18b6a5.jpg
+2025-10-18 23:21:47,321 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:21:48,467 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:21:48,493 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:21:48,494 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/nonexistent-image.jpg
+2025-10-18 23:21:48,494 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:21:49,283 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:21:49,283 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:22:38,571 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:22:38,571 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:22:40,985 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:22:40,985 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDA5NjUsImV4cCI6MTc2MDg4NzM2NX0.ysgonfU-t0Nj1FjtUPLjkeRBQocREnHIuVzatWHsIc4","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:22:40,990 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:22:40,990 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:22:42,808 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:22:42,808 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDA5NjYsImV4cCI6MTc2MDg4NzM2Nn0.gqSbu4UjgJfbYk6qfDe9psaxwFMujd_xMz57cuQjuUQ","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:22:42,811 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/61023395-838a-4b57-80fe-34192f18b6a5.jpg
+2025-10-18 23:22:42,811 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:22:43,559 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:22:43,586 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:22:43,587 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/nonexistent-image.jpg
+2025-10-18 23:22:43,587 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:22:47,260 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:22:47,260 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:22:47,261 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/nonexistent1.jpg
+2025-10-18 23:22:47,261 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:22:51,400 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:22:51,400 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:22:51,401 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/nonexistent2.png
+2025-10-18 23:22:51,401 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:22:54,222 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:22:54,222 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:22:54,222 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/invalid-image.gif
+2025-10-18 23:22:54,223 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:22:56,040 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:22:56,040 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:22:56,040 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/prize/pic/missing-file.webp
+2025-10-18 23:22:56,040 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{}
+2025-10-18 23:22:57,818 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:22:57,819 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：�PNG
+
+   IHDR         �wS�   IDAT�c���   ݍ�    IEND�B`�
+2025-10-18 23:32:29,207 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:32:29,207 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:32:35,329 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:32:35,329 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDE1NTksImV4cCI6MTc2MDg4Nzk1OX0.m0amDiM-J8NXd6SOcmmqIdTT1O6FRUaqu2y6gQJEOmw","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:32:35,333 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:32:35,333 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:32:38,254 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:32:38,254 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDE1NjIsImV4cCI6MTc2MDg4Nzk2Mn0.Iy_aRUG5oJxn1rh3Wy7xcBVwoY_osZmPe5qWSAKCyx8","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:32:38,257 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/api/lottery/activities
+2025-10-18 23:32:38,257 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDE1NTksImV4cCI6MTc2MDg4Nzk1OX0.m0amDiM-J8NXd6SOcmmqIdTT1O6FRUaqu2y6gQJEOmw'}}
+2025-10-18 23:32:42,468 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:32:42,468 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":200,"data":[{"activityId":15,"activityName":"自动化测试活动001","description":"这是一个自动化测试创建的活动","status":"RUNNING","endDate":"2025-10-25T16:00:01.000+00:00"},{"activityId":14,"activityName":"自动化测试活动001","description":"这是一个自动化测试创建的活动","status":"RUNNING","endDate":"2025-10-25T16:00:01.000+00:00"},{"activityId":13,"activityName":"自动化测试活动001","description":"这是一个自动化测试创建的活动","status":"RUNNING","endDate":"2025-10-25T16:00:01.000+00:00"},{"activityId":11,"activityName":"幸运好礼免费送","description":"无任何参与门槛，随机抽选用户，免费派发一、二、三等奖不同等级惊喜礼品。\n","status":"RUNNING","endDate":"2025-10-24T16:00:01.000+00:00"},{"activityId":10,"activityName":"惊喜福利随机领","description":"不设参与限制，系统随机筛选幸运者，各等级好礼直接免费派送。","status":"RUNNING","endDate":"2025-10-24T16:00:01.000+00:00"},{"activityId":9,"activityName":"秋日惊喜福利抽","description":"全程无门槛，随机抽取用户，免费派送一、二、三等奖不同价值礼品，为秋日添份惊喜。","status":"RUNNING","endDate":"2025-10-22T16:00:01.000+00:00"},{"activityId":8,"activityName":"品质生活好物礼","description":"汇集多元品质好物，从日常使用到休闲享受，满足不同生活场景需求。","status":"RUNNING","endDate":"2025-10-22T16:00:01.000+00:00"},{"activityId":7,"activityName":"秋日驾趣焕新抽奖","description":"以近期热门的极氪001 FR、问界M9（智驾版）、小米SU7 Max三款高关注度汽车作为核心奖品，为汽车爱好者提供解锁潮流座驾的机会。","status":"RUNNING","endDate":"2025-10-21T16:00:01.000+00:00"},{"activityId":6,"activityName":"数码潮品狂欢抽奖","description":"「数码潮品狂欢抽奖」活动，为数码发烧友带来福利，设置最新款旗舰笔记本电脑、数码相机等奖品。","status":"RUNNING","endDate":"2025-10-21T16:00:01.000+00:00"},{"activityId":5,"activityName":"居家生活焕新礼","description":"设置极米 H6 高端家用投影等奖品，助力居家生活品质提升。","status":"RUNNING","endDate":"2025-10-21T16:00:01.000+00:00"},{"activityId":4,"activityName":"运动达人装备升级礼","description":"为运动爱好者群体，准备了助力运动装备升级相关奖品的抽奖。","status":"RUNNING","endDate":"2025-10-21T16:00:01.000+00:00"},{"activityId":3,"activityName":"职场人解压福利社","description":"针对职场人群，设置有奥佳华家用全自动按摩椅等解压好物的抽奖。","status":"RUNNING","endDate":"2025-10-21T16:00:01.000+00:00"},{"activityId":2,"activityName":"学生党数码装备焕新计划","description":"面向学生群体，提供包含苹果 iPad Air 6 等数码产品的抽奖。","status":"RUNNING","endDate":"2025-10-21T16:00:01.000+00:00"},{"activityId":1,"activityName":"幸运新机礼","description":"抽手机活动","status":"RUNNING","endDate":"2025-10-20T16:00:01.000+00:00"}],"msg":"获取活动列表成功"}
+2025-10-18 23:33:28,769 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:33:28,770 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:33:31,006 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:33:31,006 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDE2MTUsImV4cCI6MTc2MDg4ODAxNX0.s4QTnn9yU6IBzm0f_8_flXMZ_UC3IflYusUe0p437HI","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:33:31,010 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:33:31,010 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:33:32,029 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:33:32,029 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDE2MTYsImV4cCI6MTc2MDg4ODAxNn0._kcxK7EBTKXRYNE3691mVgbKB27S1h8wH9a2B4agwQQ","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:35:42,150 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:35:42,150 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:35:43,917 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:35:43,917 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDE3NDgsImV4cCI6MTc2MDg4ODE0OH0.vRWkxUlsPNmIY9xnkyKORFbvc2RrHvy1tc8CGLikh9U","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:35:43,921 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:35:43,921 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:35:44,716 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:35:44,716 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDE3NDgsImV4cCI6MTc2MDg4ODE0OH0.TCY8eXBT0kb0Cx64icDKiknFMjWChoyL0Q1LFR5y-ZE","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:35:44,721 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/api/lottery/grid
+2025-10-18 23:35:44,721 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityId': 10}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDE3NDgsImV4cCI6MTc2MDg4ODE0OH0.vRWkxUlsPNmIY9xnkyKORFbvc2RrHvy1tc8CGLikh9U'}}
+2025-10-18 23:35:46,128 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:35:46,128 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 用户ID不能为空"}
+2025-10-18 23:39:27,921 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:39:27,921 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:39:28,733 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:39:28,733 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDE5NzIsImV4cCI6MTc2MDg4ODM3Mn0.42xxIhS6iiXixV8OGNgsfhzHdfDhonUV3s2c7HPGQfs","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:39:28,736 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:39:28,737 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:39:31,121 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:39:31,122 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDE5NzUsImV4cCI6MTc2MDg4ODM3NX0.UNP-0I7Vawc-F5r5s_wZ-3J9wAmFYpPoztt74SLBCgA","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:39:31,126 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/api/lottery/grid
+2025-10-18 23:39:31,126 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'activityId': 10, 'userId': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDE5NzIsImV4cCI6MTc2MDg4ODM3Mn0.42xxIhS6iiXixV8OGNgsfhzHdfDhonUV3s2c7HPGQfs'}}
+2025-10-18 23:39:31,938 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:39:31,938 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"grid":[{"position":0,"type":"prize","prize":{"id":22,"name":"大疆 DJI Osmo Action 4灵眸运动相机","level":3,"imageUrl":"bd837d93-ddc6-40bb-96e7-2e80944a85ae.png"},"imageUrl":null},{"position":1,"type":"thanks","prize":null,"imageUrl":null},{"position":2,"type":"thanks","prize":null,"imageUrl":null},{"position":3,"type":"thanks","prize":null,"imageUrl":null},{"position":4,"type":"activity","prize":null,"imageUrl":null},{"position":5,"type":"prize","prize":{"id":25,"name":"小米 SU7 Max","level":1,"imageUrl":"ca57e6f3-3557-4faa-bf21-48e057c3f4c7.png"},"imageUrl":null},{"position":6,"type":"thanks","prize":null,"imageUrl":null},{"position":7,"type":"prize","prize":{"id":4,"name":"iPhone17 Pro Max","level":2,"imageUrl":"f772ca86-6ef7-4bf6-96b4-ce985d1218c2.png"},"imageUrl":null},{"position":8,"type":"thanks","prize":null,"imageUrl":null}],"sessionId":"03c68714-113b-4210-b69b-34938bf7edfd"},"msg":"获取九宫格布局成功"}
+2025-10-18 23:41:34,086 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:41:34,087 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:41:37,010 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:41:37,010 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDIxMDEsImV4cCI6MTc2MDg4ODUwMX0.UzmBg54t_l2GFObX_eH-7FOTBVWEoRyMFOwfnCUlk9Y","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:41:37,013 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:41:37,013 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:41:38,778 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:41:38,778 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDIxMDIsImV4cCI6MTc2MDg4ODUwMn0.0NRAfGpCMZxJhlR75DCNrZauWTFkN6Dafs5Fu7k_KAU","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:41:38,783 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/api/lottery/chances
+2025-10-18 23:41:38,784 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'userId': 4, 'activityId': 5}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDIxMDEsImV4cCI6MTc2MDg4ODUwMX0.UzmBg54t_l2GFObX_eH-7FOTBVWEoRyMFOwfnCUlk9Y'}}
+2025-10-18 23:41:39,562 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:41:39,562 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":403,"data":null,"msg":"无权访问其他用户信息"}
+2025-10-18 23:42:57,750 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:42:57,750 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:42:58,559 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:42:58,559 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDIxODIsImV4cCI6MTc2MDg4ODU4Mn0.a4efjnsFGezv6TGja7bpgJKNpPx1YJPHU-40R03Zw3o","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:42:58,564 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:42:58,564 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:42:59,387 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:42:59,387 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDIxODMsImV4cCI6MTc2MDg4ODU4M30.ZwWHOowZ-inyLRG6qWT6VGjQOKhZMM9KOzsUVq9Mxug","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:42:59,391 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/api/lottery/chances
+2025-10-18 23:42:59,391 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'userId': 4, 'activityId': 5}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDIxODIsImV4cCI6MTc2MDg4ODU4Mn0.a4efjnsFGezv6TGja7bpgJKNpPx1YJPHU-40R03Zw3o'}}
+2025-10-18 23:43:01,273 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:43:01,273 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":403,"data":null,"msg":"无权访问其他用户信息"}
+2025-10-18 23:44:01,491 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:44:01,491 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:44:02,983 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:44:02,983 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDIyNDcsImV4cCI6MTc2MDg4ODY0N30.MKLiRAhapiqlcbIBh8Kol9aJa_KOBwNivuY7sDMpa-4","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:44:02,988 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:44:02,988 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:44:04,764 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:44:04,764 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDIyNDgsImV4cCI6MTc2MDg4ODY0OH0.hgHvzaCAPd1grz36zn0FBCSjS1o68viEQAG_yAFrCd8","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:44:04,769 INFO [utils.logger_util] [request_util.py (get:29)] - 准备发起GET请求，URL: http://101.42.36.43:8888/api/lottery/chances
+2025-10-18 23:44:04,769 INFO [utils.logger_util] [request_util.py (get:30)] - 请求信息：{'params': {'userId': 4, 'activityId': 5}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDIyNDcsImV4cCI6MTc2MDg4ODY0N30.MKLiRAhapiqlcbIBh8Kol9aJa_KOBwNivuY7sDMpa-4'}}
+2025-10-18 23:44:06,453 INFO [utils.logger_util] [request_util.py (get:34)] - 响应状态码：200
+2025-10-18 23:44:06,453 INFO [utils.logger_util] [request_util.py (get:35)] - 响应内容：{"code":403,"data":null,"msg":"无权访问其他用户信息"}
+2025-10-18 23:54:49,823 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:54:49,823 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:54:55,530 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:54:55,530 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDI4OTksImV4cCI6MTc2MDg4OTI5OX0.JyzGpq2BBSpGbkT5GWHMB8gf6mtFaWUmXZG-rWA2DzM","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:54:55,534 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:54:55,534 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:55:00,542 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：502
+2025-10-18 23:55:00,542 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：
+2025-10-18 23:55:00,624 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/api/lottery/draw
+2025-10-18 23:55:00,624 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'userId': 3, 'activityId': 6, 'sessionId': '03c68714-113b-4210-b69b-34938bf7edfd'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDI4OTksImV4cCI6MTc2MDg4OTI5OX0.JyzGpq2BBSpGbkT5GWHMB8gf6mtFaWUmXZG-rWA2DzM'}}
+2025-10-18 23:55:06,124 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:55:06,124 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"success":true,"won":false,"message":"谢谢参与！","prize":null,"remainingChances":9,"position":5,"sessionId":"03c68714-113b-4210-b69b-34938bf7edfd"},"msg":"抽奖完成"}
+2025-10-18 23:56:42,632 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:56:42,633 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:56:46,405 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:56:46,405 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDMwMTAsImV4cCI6MTc2MDg4OTQxMH0.kJLzId_Zmi7qY0HWc6SmkxVsEUY39PmHpPUOQF93Lxg","identity":"USER","userId":17},"msg":"用户密码登录成功"}
+2025-10-18 23:56:46,410 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:56:46,410 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:56:52,751 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:56:52,751 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDMwMTYsImV4cCI6MTc2MDg4OTQxNn0.T_8NHl3jxgFWqsZQZhNLtdOoGuriFCYHpVvQTHSojNg","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:56:52,758 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/api/lottery/draw
+2025-10-18 23:56:52,758 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'userId': 3, 'activityId': 6, 'sessionId': '03c68714-113b-4210-b69b-34938bf7edfd'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDMwMTAsImV4cCI6MTc2MDg4OTQxMH0.kJLzId_Zmi7qY0HWc6SmkxVsEUY39PmHpPUOQF93Lxg'}}
+2025-10-18 23:56:57,761 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：502
+2025-10-18 23:56:57,761 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：
+2025-10-18 23:57:34,906 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:57:34,906 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+2025-10-18 23:57:39,918 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：502
+2025-10-18 23:57:39,918 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：
+2025-10-18 23:57:39,992 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+2025-10-18 23:57:39,993 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'loginName': '2545901319@qq.com', 'password': '123456'}}
+2025-10-18 23:57:43,162 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:57:43,162 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4MDMwNjcsImV4cCI6MTc2MDg4OTQ2N30.9HqJoFBzg6dTZwRft6XO-dwNfb2j1BDrhxZJk4t-huc","identity":"ADMIN","userId":2},"msg":"用户密码登录成功"}
+2025-10-18 23:57:43,168 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/api/lottery/draw
+2025-10-18 23:57:43,168 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'userId': 16, 'activityId': 6, 'sessionId': '03c68714-113b-4210-b69b-34938bf7edfd'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4MDMwMTAsImV4cCI6MTc2MDg4OTQxMH0.kJLzId_Zmi7qY0HWc6SmkxVsEUY39PmHpPUOQF93Lxg'}}
+2025-10-18 23:57:48,678 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-18 23:57:48,678 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":200,"data":{"success":true,"won":false,"message":"谢谢参与！","prize":null,"remainingChances":8,"position":1,"sessionId":"03c68714-113b-4210-b69b-34938bf7edfd"},"msg":"抽奖完成"}

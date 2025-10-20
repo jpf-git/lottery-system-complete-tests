@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:50 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+[32mINFO    [0m utils.logger_util:request_util.py:51 请求信息：{'json': {'name': '测试用户', 'mail': '@example.com', 'phoneNumber': '13800138005', 'password': 'Test@123456', 'identity': 'USER'}}
+[32mINFO    [0m utils.logger_util:request_util.py:55 响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:56 响应内容：{"code":101,"data":null,"msg":"邮箱错误"}

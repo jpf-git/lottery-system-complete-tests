@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:50 准备发起POST请求，URL: http://101.42.36.43:8888/activity/end/10
+[32mINFO    [0m utils.logger_util:request_util.py:51 请求信息：{'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwidXNlcklkIjoyLCJpYXQiOjE3NjA4NTUxMzAsImV4cCI6MTc2MDk0MTUzMH0.W40QAvLFK6RthebxocqW9szW6TWHr69zl1ZH8fCAlQA'}}
+[32mINFO    [0m utils.logger_util:request_util.py:55 响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:56 响应内容：{"code":200,"data":null,"msg":"活动已结束"}

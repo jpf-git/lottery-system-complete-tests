@@ -1,0 +1,26 @@
+2025-10-17 22:54:50,501 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-17 22:54:50,501 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'email': 'test_user_001@example.com', 'phoneNumber': '13800138001', 'password': 'Test@123456', 'userName': '测试用户001'}}
+2025-10-17 22:54:51,164 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-17 22:54:51,164 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 邮箱不能为空！, 姓名不能为空！, 身份信息不能为空！"}
+2025-10-17 22:55:25,836 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-17 22:55:25,838 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'email': 'test_user_001@example.com', 'phoneNumber': '13800138001', 'password': 'Test@123456', 'userName': '测试用户001'}}
+2025-10-17 22:55:26,500 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-17 22:55:26,500 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 邮箱不能为空！, 姓名不能为空！, 身份信息不能为空！"}
+2025-10-17 22:59:58,997 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-17 22:59:58,997 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'email': 'test_user_001@example.com', 'phoneNumber': '13800138003', 'password': '123456', 'userName': '测试用户001'}}
+2025-10-17 22:59:59,567 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-17 22:59:59,568 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 身份信息不能为空！, 邮箱不能为空！, 姓名不能为空！"}
+2025-10-17 23:20:13,902 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-17 23:20:13,902 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'email': 'test_user_001@example.com', 'phoneNumber': '13800138003', 'password': '123456', 'userName': '测试用户001'}}
+2025-10-17 23:21:30,300 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-17 23:21:30,300 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'email': 'test_user_001@example.com', 'phoneNumber': '13800138003', 'password': '123456', 'userName': '测试用户001'}}
+2025-10-17 23:21:31,388 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-17 23:21:31,388 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 身份信息不能为空！, 邮箱不能为空！, 姓名不能为空！"}
+2025-10-17 23:53:35,997 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-17 23:53:35,997 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'email': 'test_user_001@example.com', 'phoneNumber': '13800138003', 'password': '123456', 'userName': '测试用户001'}}
+2025-10-17 23:53:36,777 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-17 23:53:36,777 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 身份信息不能为空！, 姓名不能为空！, 邮箱不能为空！"}
+2025-10-17 23:54:43,418 INFO [utils.logger_util] [request_util.py (post:50)] - 准备发起POST请求，URL: http://101.42.36.43:8888/user/register
+2025-10-17 23:54:43,418 INFO [utils.logger_util] [request_util.py (post:51)] - 请求信息：{'json': {'userName': '测试用户001', 'email': 'test_user_001@example.com', 'phoneNumber': '13800138003', 'password': '123456', 'identity': 'USER'}}
+2025-10-17 23:54:44,203 INFO [utils.logger_util] [request_util.py (post:55)] - 响应状态码：200
+2025-10-17 23:54:44,203 INFO [utils.logger_util] [request_util.py (post:56)] - 响应内容：{"code":400,"data":null,"msg":"参数校验失败: 邮箱不能为空！, 姓名不能为空！"}
