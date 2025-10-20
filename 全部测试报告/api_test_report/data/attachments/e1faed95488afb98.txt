@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:29 准备发起GET请求，URL: http://101.42.36.43:8888/user/current
+[32mINFO    [0m utils.logger_util:request_util.py:30 请求信息：{'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjMsImlhdCI6MTc2MDg1NTE2OCwiZXhwIjoxNzYwOTQxNTY4fQ.b8coAM6oDyeYRdv1emuE2wpHTDt2KjVn0XT2Nz7uMvE'}}
+[32mINFO    [0m utils.logger_util:request_util.py:34 响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:35 响应内容：{"code":200,"data":{"identity":"USER","userId":3,"email":"user3@example.com","username":"用户3"},"msg":"获取当前用户信息成功"}

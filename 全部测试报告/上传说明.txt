@@ -1,0 +1,61 @@
+# GitHub Pages 上传说明
+
+## 📋 上传步骤
+
+### 1. 确认 test-report-summary 仓库位置
+找到你的 `test-report-summary` Git 仓库（应该在 `d:\桌面\抽奖汇总\test-report-summary`）
+
+### 2. 复制文件到 Git 仓库
+将 `github-upload` 目录中的所有内容复制到 `test-report-summary` 仓库根目录：
+- index.html （导航页面）
+- README.md （说明文档）
+- baseline_report/ （基准测试报告）- 注意：目前叫 allure-report，需要重命名
+- stress_report/ （压力测试报告）
+- mixed_report/ （混合场景测试报告）
+- stability_report/ （稳定性测试报告）
+- api_test_report/ （API接口测试报告）
+- web_test_report/ （Web UI测试报告）✨ 已更新为完整报告（29个测试用例）
+
+### 3. 重命名 baseline_report
+**重要**：将 `allure-report` 目录重命名为 `baseline_report`，以匹配导航页面的链接。
+
+### 4. 提交到 GitHub
+```bash
+cd d:\桌面\抽奖汇总\test-report-summary
+git add .
+git commit -m "更新测试报告：添加完整的Web UI测试报告（29个用例）"
+git push origin main
+```
+
+### 5. 等待 GitHub Pages 部署
+通常需要等待 1-2 分钟，GitHub Pages 会自动部署更新。
+
+### 6. 访问报告
+- **导航页面**: https://jpf-git.github.io/test-report-summary/
+- **Web UI测试报告**: https://jpf-git.github.io/test-report-summary/web_test_report/
+
+## 📊 本次更新内容
+
+✅ 修复了 Web UI 测试报告显示问题
+✅ Web UI 测试报告现在显示完整的 29 个测试用例（全部通过）
+✅ 更新了导航页面的颜色方案（API卡片改为浅绿色）
+✅ 调整了卡片布局（性能测试卡片居中）
+✅ 增强了文字可读性（字体大小、阴影、对比度）
+✅ 添加了 4 个性能测试报告链接
+
+## 🎨 导航页面特点
+
+- 响应式设计，支持移动设备
+- 渐变背景和卡片悬停效果
+- 清晰的测试统计数据展示
+- 快速访问所有测试报告
+
+## 📝 注意事项
+
+1. 确保 `allure-report` 重命名为 `baseline_report`
+2. 所有报告目录名必须与 index.html 中的链接一致
+3. 如果更新失败，检查 GitHub Actions 构建日志
+4. 确保 GitHub Pages 设置为从 main 分支部署
+
+---
+更新日期：2025年10月20日

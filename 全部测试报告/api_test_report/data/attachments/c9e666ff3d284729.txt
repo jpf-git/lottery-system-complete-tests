@@ -1,0 +1,1 @@
+{'name': '测试用户001', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138004', 'password': '123456', 'identity': 'USER'}

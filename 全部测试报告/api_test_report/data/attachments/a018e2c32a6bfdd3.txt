@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:50 准备发起POST请求，URL: http://101.42.36.43:8888/user/password/login
+[32mINFO    [0m utils.logger_util:request_util.py:51 请求信息：{'json': {'loginName': 'test1760671217025@example.com', 'password': '123456'}}
+[32mINFO    [0m utils.logger_util:request_util.py:55 响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:56 响应内容：{"code":200,"data":{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IlVTRVIiLCJ1c2VySWQiOjE3LCJpYXQiOjE3NjA4NTUxMjksImV4cCI6MTc2MDk0MTUyOX0.tfStFYSaF8BGC_RyWSnyKrvdPy4AFhGpIeQD5_z4G9g","identity":"USER","userId":17},"msg":"用户密码登录成功"}

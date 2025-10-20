@@ -1,0 +1,1 @@
+{'userName': '重复用户', 'mail': 'test_user_001@example.com', 'phoneNumber': '13800138002', 'password': '123456', 'identity': 'USER'}
